@@ -26,6 +26,7 @@
     "eject": "react-scripts eject",
     "preview": "astro preview",
     "start": "astro dev",
+    "start-qgp": "vite --config qgp.config.mjs",
     "test": "react-scripts test"
   },
   "eslintConfig": {
@@ -45,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*",
+    "typescript": "*",
+    "vite-plugin-checker": "*"
   }
 }
